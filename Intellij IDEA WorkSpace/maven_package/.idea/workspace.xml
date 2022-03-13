@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25a4ff6b-8dcf-4304-bc21-48af851d2b24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25fmlZ4t83L01gKqwijgMNqDXho" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maven02" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij IDEA WorkSpace\maven_package\src\main\resources\test" />
+      <recent name="D:\Intellij IDEA WorkSpace\maven_package\src\main\resources\product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.package_test">
+    <configuration name="package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="package_dev" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+                <option value="package" />
+                <option value="-Pdev" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="package_product" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+                <option value="package" />
+                <option value="-Pproduct" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="package_test" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+                <option value="package" />
+                <option value="-Ptest" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.package" />
+      <item itemvalue="Maven.package_dev" />
+      <item itemvalue="Maven.package_test" />
+      <item itemvalue="Maven.package_product" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HPF\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25a4ff6b-8dcf-4304-bc21-48af851d2b24" name="Default Changelist" comment="" />
+      <created>1645926667023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645926667023</updated>
+      <workItem from="1645926669794" duration="4842000" />
+      <workItem from="1645945599954" duration="67000" />
+      <workItem from="1645945682536" duration="200000" />
+      <workItem from="1645945898492" duration="2029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645929924133">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1645929924133" />
+    <state x="549" y="161" key="FileChooserDialogImpl" timestamp="1645947944391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1645947944391" />
+    <state width="1478" height="128" key="GridCell.Tab.0.bottom" timestamp="1645945531276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1645945531276" />
+    <state width="1478" height="128" key="GridCell.Tab.0.center" timestamp="1645945531276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="128" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1645945531276" />
+    <state width="1478" height="128" key="GridCell.Tab.0.left" timestamp="1645945531276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="128" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1645945531276" />
+    <state width="1478" height="128" key="GridCell.Tab.0.right" timestamp="1645945531276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="128" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1645945531276" />
+    <state x="272" y="63" key="SettingsEditor" timestamp="1645945849550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="63" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1645945849550" />
+    <state x="461" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1645945898048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1645945898048" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1645927749838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1645927749838" />
+    <state x="575" y="323" key="svn.upgradeDialog" timestamp="1645946625801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="323" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1645946625801" />
+    <state x="539" y="290" key="svn4idea.checkout.options" timestamp="1645946623880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="290" key="svn4idea.checkout.options/0.0.1536.824@0.0.1536.824" timestamp="1645946623880" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<!-- 注释：resources 资源文件里面的 spring.xml 就是集成了 spring的配置环境  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        xmlns  是xml namespace 命名空间
+        xmlns:xsi  是xml schema instance xml 遵守的具体的规范
+        xsi:schemaLocation  本文档xml遵守的规范 官方指定
+
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+            id ： bean标签的唯一标识，一般是javaBean对象名称的首字母小写
+            class:javabean对象的类路径  （包名+类名）
+    -->
+    <bean id="userService" class="com.xxxx.service.UserService">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="userService02" class="com.xxxx.service.UserService02">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!-- more bean definitions go here -->
+
+</beans>

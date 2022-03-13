@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件下载</title>
+</head>
+<body>
+<!--超链接下载
+        当使用超链接（a标签）,如果遇到浏览器可以识别的资源，则显示资源
+                            如果遇到浏览器不能识别的资源，则下载
+     download下载
+        通过download属性规定浏览器进行下载
+                            如果遇到浏览器可以识别的资源，超链接直接显示，但我又想下载，那就加一个download属性
+-->
+
+<!-- 浏览器可以识别的资源 -->
+<a href="download/arrangment.txt">文本文件</a>
+<a href="download/Struggle.jpg">图片文件</a>
+<!-- 浏览器不能识别的资源 -->
+<a href="download/arrangment.rar">压缩文件</a>
+<hr>
+<hr>
+<!-- 浏览器可以识别的资源 -->
+<a href="download/arrangment.txt" download>文本文件</a>
+<a href="download/Struggle.jpg" download="百度.png">图片文件</a>
+
+<br>
+<br>
+<hr>
+<form action="DownloadServlet" >
+    文件名：<input type="text" name="fileName" placeholder="请输入要下载的文件名">
+            <button>下载</button>
+
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration><!-- 配置 -->
+    <properties resource="mysql.properties"/><!-- 属性 -->
+
+    <!--重命名-->
+    <!--<typeAliases>
+        <typeAlias alias="User" type="com.xxxx.entity.User"></typeAlias>
+    </typeAliases>   &lt;!&ndash; 类型命名 &ndash;&gt;
+
+-->
+
+    <!--对事务管理和连接池的配置-->
+    <environments default="development"><!-- 配置环境 -->
+        <environment id="development"><!-- 环境变量 -->
+            <transactionManager type="JDBC"/><!-- 事务管理器 -->
+            <!-- 数据源 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <mappers >
+
+        <!-- 映射器 -->
+        <!--映射文件方式1 . 一个一个配置-->
+        <!--  <mapper resource = "com/xxxx/mapper/UserMapper.xml/>"-->
+        <!--  <mapper class = "com.xxxx.mapper.UserMapper" />-->
+
+        <!--  映射文件方式2. 自动扫描包内的Mapper接口与配置文件 -->
+        <package name="com.xxxx.mapper"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--命名空间UserMapper对应的接口类，需要创建一个接口类-->
+<!-- 首先来解析namespance:命名空间，用来映射dao层或mapper接口-->
+<mapper namespace="com.xxxx.mapper.UserMapper">
+    <select id="queryUserByName" parameterType="String" resultType="com.xxxx.entity.User">
+        select * from tb_user where userName = #{userName};
+    </select>
+</mapper>
